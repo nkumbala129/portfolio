@@ -1,121 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Narender Kumbala - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #0059b3;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            background-color: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #004080;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        .contact a {
-            color: #004080;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narender Kumbala | Data Engineer Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #003366;
+    }
+    .project, .experience, .certification, .education {
+      background-color: #ffffff;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 5px solid #003366;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .certification, .link {
+      margin: 0.5rem 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #003366;
+      color: white;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
     <h1>Narender Kumbala</h1>
-    <p class="contact">
-        📧 narenderkumbalak@gmail.com | 📱 +91-8520831356 | 🔗 
-        <a href="https://www.linkedin.com/in/nkumbala" target="_blank">LinkedIn</a>
-    </p>
-</header>
+    <p>📧 narenderkumbalak@gmail.com | 📱 +91-8520831356</p>
+    <p>🔗 <a href="https://www.linkedin.com/in/nkumbala" target="_blank" style="color: white;">linkedin.com/in/nkumbala</a></p>
+  </header>
 
-<section>
+  <section>
     <h2>Professional Summary</h2>
-    <p>Data Integration Developer with over 3 years 6 months of expertise in ETL, data integration, and reporting.
-    Skilled in integrating data from Salesforce, PostgreSQL, Smart Sheets, SharePoint into Snowflake using Snowpark, Python, and SQL.
-    Proficient in Microsoft Fabric migration and ETL optimization.
-    Experienced in data modeling, automation, Power BI, and Tableau reporting.
-    Proven ability to enhance decision-making through advanced analytics.</p>
-</section>
+    <p>Data Integration Developer with over 3 years 6 months of expertise in ETL, data integration, and reporting. Proficient in integrating data from diverse sources such as Salesforce, PostgreSQL, Smart Sheets, and SharePoint into Snowflake using Snowpark, Python, and SQL. Skilled in migrating solutions to Microsoft Fabric and optimizing ETL pipelines for performance and reliability. Strong experience in data modelling, automation, and reporting using Power BI and Tableau, with a proven track record of improving decision-making through advanced analytics.</p>
 
-<section>
     <h2>Technical Skills</h2>
     <ul>
-        <li><strong>ETL Tools:</strong> Snowpark, Azure Data Factory, SSIS, Microsoft Fabric</li>
-        <li><strong>Languages:</strong> Python, SQL, T-SQL</li>
-        <li><strong>Cloud Platforms:</strong> Azure, AWS</li>
-        <li><strong>Databases:</strong> Snowflake, Azure Synapse Analytics, Redshift</li>
-        <li><strong>Reporting Tools:</strong> Power BI, Tableau, Excel</li>
-        <li><strong>Version Control:</strong> Git, Azure DevOps</li>
-        <li><strong>Other Tools:</strong> JIRA, Click-Up</li>
+      <li><strong>ETL Tools & Technologies:</strong> Snowpark, Azure Data Factory, SSIS, Microsoft Fabric</li>
+      <li><strong>Programming Languages:</strong> Python, SQL, T-SQL</li>
+      <li><strong>Cloud Platforms:</strong> Azure, AWS</li>
+      <li><strong>Cloud Databases:</strong> Snowflake, Azure Synapse Analytics, Redshift</li>
+      <li><strong>Reporting Tools:</strong> Power BI, Tableau, Excel</li>
+      <li><strong>Version Control:</strong> Git, Azure DevOps</li>
+      <li><strong>Other Tools:</strong> JIRA, Click-Up</li>
     </ul>
-</section>
 
-<section>
     <h2>Professional Experience</h2>
-    <h3>Data Engineer – Dilytics Technologies (Aug 2023 – Present)</h3>
-    <p><strong>Project: Bay REN Project</strong> – Snowpark, Python, SQL, Salesforce, PostgreSQL, Smartsheets, SharePoint, Snowflake</p>
-    <ul>
-        <li>Developed ETL pipelines for multi-source data integration into Snowflake</li>
-        <li>Designed schemas, views, and indexes to optimize performance</li>
-        <li>Applied SQL transformations in Python and documented processes</li>
-        <li>Automated Tableau reporting for real-time insights</li>
-        <li>Implemented data validation and incremental loading</li>
-    </ul>
-    <p><strong>Internal Project:</strong> Microsoft Fabric Migration</p>
-    <ul>
-        <li>Migrated SSIS workflows to Microsoft Fabric</li>
-        <li>Redesigned workflows and conducted integration testing</li>
-        <li>Created centralized read-only data warehouse</li>
-    </ul>
+    <div class="experience">
+      <h3>Data Engineer – Dilytics Technologies</h3>
+      <p><strong>Duration:</strong> August 2023 – Present</p>
+      <p><strong>Project: Bay REN Project – Data Integration & ETL Development</strong></p>
+      <p><strong>Technologies:</strong> Snowpark, Python, SQL, Salesforce, PostgreSQL, Smartsheets, SharePoint, Snowflake</p>
+      <ul>
+        <li>Developed ETL pipelines integrating data from multiple sources into Snowflake using Snowpark, Python, and SQL.</li>
+        <li>Designed schemas, views, and indexes for performance and scalability.</li>
+        <li>Applied SQL transformations in Python and documented data flows thoroughly.</li>
+        <li>Automated reporting in Tableau to enable real-time insights.</li>
+        <li>Implemented data validation and incremental loading for improved accuracy.</li>
+        <li>Worked cross-functionally to optimize data models and reporting flows.</li>
+      </ul>
+      <p><strong>Internal Project:</strong> Microsoft Fabric Migration</p>
+      <p><strong>Technologies:</strong> Microsoft Fabric, ADF, SSIS, SQL</p>
+      <ul>
+        <li>Led SSIS to Microsoft Fabric migration, redesigned workflows, and enhanced performance.</li>
+        <li>Conducted integration testing and created reusable templates and documentation.</li>
+        <li>Built centralized, read-only data warehouse for multi-environment reporting.</li>
+      </ul>
+    </div>
 
-    <h3>Snowflake AI Project – Personal Project</h3>
-    <ul>
-        <li>Built AI chat assistant using Streamlit</li>
-        <li>Designed semantic models in YAML</li>
-        <li>Integrated Cortex functions and deployed on Streamlit Cloud</li>
-    </ul>
+    <div class="experience">
+      <h3>Snowflake AI Project (Personal Project)</h3>
+      <ul>
+        <li>Developed AI-powered chat assistant for business Q&A using Streamlit and Snowflake Cortex.</li>
+        <li>Created semantic models in YAML and embedded app for business use cases.</li>
+        <li>Used Cortex Search, Complete, Summarize, and Agent services.</li>
+        <li>Version controlled with Git and deployed on Streamlit Community Cloud.</li>
+      </ul>
+    </div>
 
-    <h3>MIS Executive – InfoEdge India Limited (Aug 2019 – Apr 2021)</h3>
-    <ul>
-        <li>Managed CRM data and automated Excel reports</li>
-        <li>Reduced manual reporting effort by 30%</li>
-        <li>Supported strategic decisions through validated reports</li>
-    </ul>
-</section>
+    <div class="experience">
+      <h3>MIS Executive – InfoEdge India Limited</h3>
+      <p><strong>Duration:</strong> August 2019 – April 2021</p>
+      <ul>
+        <li>Managed CRM data and built Excel reports using Pivot Tables, VLOOKUP, and Macros.</li>
+        <li>Automated reporting processes, reducing manual effort by 30%.</li>
+        <li>Generated strategic reports and validated CRM data for accuracy.</li>
+      </ul>
+    </div>
 
-<section>
     <h2>Education</h2>
-    <p><strong>MBA</strong>, Osmania University (2016)</p>
-</section>
+    <div class="education">
+      <p><strong>MBA</strong> – Osmania University, 2016</p>
+    </div>
 
-<section>
     <h2>Certifications</h2>
     <ul>
-        <li>Databricks Lakehouse Fundamentals – Academy Accreditation</li>
-        <li>Microsoft Certified: Azure Fundamentals</li>
-        <li>Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)</li>
+      <li>✅ Databricks Lakehouse Fundamentals</li>
+      <li>✅ Microsoft Certified: Azure Fundamentals</li>
+      <li>✅ Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)</li>
     </ul>
-</section>
 
+    <h2>Links</h2>
+    <p class="link"><a href="https://github.com/your-github" target="_blank">GitHub</a></p>
+    <p class="link"><a href="https://www.linkedin.com/in/nkumbala" target="_blank">LinkedIn</a></p>
+    <p class="link"><a href="resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Narender Kumbala</p>
+  </footer>
 </body>
 </html>
